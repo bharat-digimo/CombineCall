@@ -16,6 +16,7 @@
 		86AA8A7829CF0E0000269E99 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8A7729CF0E0000269E99 /* NetworkManager.swift */; };
 		86AA8A7D29CF1B2200269E99 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8A7C29CF1B2200269E99 /* Repository.swift */; };
 		86AA8A7F29CF1D2100269E99 /* RepositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8A7E29CF1D2100269E99 /* RepositoryViewModel.swift */; };
+		86AA8A8129CF2C3600269E99 /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8A8029CF2C3600269E99 /* RepoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		86AA8A7729CF0E0000269E99 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		86AA8A7C29CF1B2200269E99 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		86AA8A7E29CF1D2100269E99 /* RepositoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewModel.swift; sourceTree = "<group>"; };
+		86AA8A8029CF2C3600269E99 /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				86AA8A6629CF0DDB00269E99 /* ViewController.swift */,
+				86AA8A8029CF2C3600269E99 /* RepoCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86AA8A7829CF0E0000269E99 /* NetworkManager.swift in Sources */,
+				86AA8A8129CF2C3600269E99 /* RepoCell.swift in Sources */,
 				86AA8A6729CF0DDB00269E99 /* ViewController.swift in Sources */,
 				86AA8A7F29CF1D2100269E99 /* RepositoryViewModel.swift in Sources */,
 				86AA8A7D29CF1B2200269E99 /* Repository.swift in Sources */,
